@@ -3,7 +3,6 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 @Component({
   selector: 'my-app-worksapce-tab3',
   templateUrl: 'tab3.page.html',
-  styleUrls: ['tab3.page.scss'],
 })
 export class Tab3Page implements OnInit, OnDestroy {
   constructor() {}

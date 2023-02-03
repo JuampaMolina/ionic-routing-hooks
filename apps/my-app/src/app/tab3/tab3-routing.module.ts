@@ -5,24 +5,32 @@ import { Tab3Page } from './tab3/tab3.page';
 import { IndexComponent } from './index.component';
 
 const routes: Routes = [
+  // {
+  //   path: '',
+  //   component: IndexComponent,
+  //   children: [
+  //     {
+  //       path: '',
+  //       pathMatch: 'full',
+  //       redirectTo: 'tab3'
+  //     },
+  //     {
+  //       path: 'tab3',
+  //       component: Tab3Page,
+  //     },
+  //     {
+  //       path: 'admin',
+  //       component: AdminComponent,
+  //     },
+  //   ]
+  // },
   {
     path: '',
-    component: IndexComponent,
-    children: [
-      {
-        path: '',
-        pathMatch: 'full',
-        redirectTo: 'tab3'
-      },
-      {
-        path: 'tab3',
-        component: Tab3Page,
-      },
-      {
-        path: 'admin',
-        component: AdminComponent,
-      },
-    ]
+    component: Tab3Page,
+  },
+  {
+    path: 'admin',
+    component: AdminComponent,
   },
   
 ];
